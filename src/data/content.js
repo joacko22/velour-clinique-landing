@@ -43,8 +43,7 @@ export const FAQS = [
 ];
 
 export const LOCATIONS = [
-  { id: 'palermo', name: 'Velour Palermo', address: 'Av. Santa Fe 3450, CABA', hours: 'Lun a Sáb · 10:00 a 20:00', phone: '+54 9 11 2345-6789', top: '34%', left: '30%' },
-  { id: 'nordelta', name: 'Velour Nordelta', address: 'Av. de los Lagos 1200, Nordelta, Buenos Aires', hours: 'Mar a Sáb · 10:00 a 19:00', phone: '+54 9 11 8765-4321', top: '64%', left: '68%' },
+  { id: 'rosario', name: 'Velour Rosario', address: 'Tucumán 1047, Rosario, Santa Fe', hours: 'Lun a Sáb · 10:00 a 20:00', phone: '+54 9 341 234-5678' },
 ];
 
 export const PILLARS = [

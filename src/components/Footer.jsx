@@ -11,7 +11,7 @@ export default function Footer() {
         <div className={styles.grid}>
           <div>
             <img src="/assets/logo-full-dark.png" alt="Velour Clinique Esthétique" className={styles.brandLogo} />
-            <p className={styles.brandDesc}>Medicina estética integral en Buenos Aires.</p>
+            <p className={styles.brandDesc}>Medicina estética integral en Rosario.</p>
           </div>
 
           <div>
@@ -26,7 +26,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <div className={styles.colTitle}>SEDES</div>
+            <div className={styles.colTitle}>SEDE</div>
             <div className={styles.locationsCol}>
               {LOCATIONS.map((loc) => (
                 <div key={loc.id}>

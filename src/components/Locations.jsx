@@ -5,6 +5,7 @@ import { LOCATIONS } from '../data/content';
 const locationsList = LOCATIONS.map((loc) => ({
   ...loc,
   mapsUrl: 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(loc.name + ', ' + loc.address),
+  embedUrl: 'https://www.google.com/maps?q=' + encodeURIComponent(loc.address) + '&output=embed',
 }));
 
 export default function Locations() {
@@ -15,7 +16,7 @@ export default function Locations() {
           <span className={styles.kickerLine} />
           <span className={styles.kickerText}>UBICACIONES</span>
         </div>
-        <h2 className={styles.title}>Te esperamos en nuestras sedes</h2>
+        <h2 className={styles.title}>Te esperamos en nuestra clínica</h2>
 
         <div className={styles.row}>
           <motion.div
@@ -25,15 +26,14 @@ export default function Locations() {
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.6, ease: 'easeOut' }}
           >
-            <div className={styles.mapGrid} />
-            <div className={styles.blobA} />
-            <div className={styles.blobB} />
-            {locationsList.map((pin) => (
-              <div key={pin.id} className={styles.pin} style={{ top: pin.top, left: pin.left }}>
-                <div className={styles.pinLabel}>{pin.name}</div>
-                <div className={styles.pinDot} />
-              </div>
-            ))}
+            <iframe
+              className={styles.mapEmbed}
+              src={locationsList[0].embedUrl}
+              title={`Mapa de ${locationsList[0].name}`}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              allowFullScreen
+            />
           </motion.div>
 
           <div className={styles.cardsCol}>
