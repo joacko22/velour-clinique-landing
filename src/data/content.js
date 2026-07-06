@@ -43,7 +43,7 @@ export const FAQS = [
 ];
 
 export const LOCATIONS = [
-  { id: 'rosario', name: 'Velour Rosario', address: 'Tucumán 1047, Rosario, Santa Fe', hours: 'Lun a Sáb · 10:00 a 20:00', phone: '+54 9 341 234-5678' },
+  { id: 'rosario', name: 'Velour Rosario', address: 'Tucumán 1047, Rosario, Santa Fe', hours: 'Lun a Sáb · 10:00 a 20:00', phone: '+54 9 341 707-0000' },
 ];
 
 export const PILLARS = [

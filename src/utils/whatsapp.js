@@ -1,6 +1,6 @@
 import { WHATSAPP_NUMBER } from '../config';
 
-const digitsOnly = (WHATSAPP_NUMBER || '5491123456789').replace(/\D/g, '');
+const digitsOnly = (WHATSAPP_NUMBER || '5493417070000').replace(/\D/g, '');
 
 export function waLink(message) {
   return `https://wa.me/${digitsOnly}?text=${encodeURIComponent(message)}`;
