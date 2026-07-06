@@ -1,0 +1,95 @@
+.section {
+  background: var(--color-espresso-soft);
+  padding: clamp(64px, 9vw, 120px) 0;
+  position: relative;
+  overflow: hidden;
+  scroll-margin-top: 82px;
+}
+
+.glow {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 88% 12%, rgba(198, 148, 92, 0.14), transparent 50%);
+}
+
+.inner {
+  position: relative;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 clamp(20px, 5vw, 64px);
+  text-align: center;
+}
+
+.kicker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.kickerLine {
+  width: 28px;
+  height: 1px;
+  background: var(--color-gold);
+}
+
+.kickerText {
+  font-family: var(--font-sans);
+  font-size: 12.5px;
+  letter-spacing: 0.28em;
+  color: var(--color-gold-light);
+  font-weight: 500;
+}
+
+.title {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  font-size: clamp(2rem, 3.6vw, 2.9rem);
+  color: var(--color-cream);
+  margin: 0 0 18px;
+}
+
+.subtitle {
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: 16.5px;
+  line-height: 1.7;
+  color: rgba(250, 246, 240, 0.65);
+  max-width: 620px;
+  margin: 0 auto 60px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1px;
+  background: rgba(230, 196, 145, 0.14);
+  border: 1px solid rgba(230, 196, 145, 0.14);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card {
+  background: var(--color-espresso-soft);
+  padding: 36px 26px;
+  text-align: left;
+}
+
+.iconWrap {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: rgba(230, 196, 145, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.cardTitle {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 19px;
+  color: var(--color-cream);
+}

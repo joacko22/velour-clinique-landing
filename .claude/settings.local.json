@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /tmp_extract_check)",
+      "Bash(powershell -Command \"Expand-Archive -Path 'Velour Clinique Landing Page.zip' -DestinationPath 'C:\\\\Users\\\\Joaquin\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-Joaquin-Projects-Velour-Clinique-Esthetique-velour-frontend-landing\\\\39e51c3e-1cb3-470f-ba79-07ffe28ae62d\\\\scratchpad\\\\velour_zip_extract' -Force\")"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+.floatingBtn {
+  position: fixed;
+  bottom: 26px;
+  right: 26px;
+  z-index: 400;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: #25d366;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 12px 30px -8px rgba(37, 211, 102, 0.55);
+  text-decoration: none;
+}

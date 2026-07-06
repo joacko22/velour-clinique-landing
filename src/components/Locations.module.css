@@ -1,0 +1,168 @@
+.section {
+  background: var(--color-cream-dark);
+  padding: clamp(64px, 9vw, 120px) 0;
+  scroll-margin-top: 82px;
+}
+
+.inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 clamp(20px, 5vw, 64px);
+}
+
+.kicker {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.kickerLine {
+  width: 28px;
+  height: 1px;
+  background: var(--color-gold);
+}
+
+.kickerText {
+  font-family: var(--font-sans);
+  font-size: 12.5px;
+  letter-spacing: 0.28em;
+  color: var(--color-gold-deep);
+  font-weight: 500;
+}
+
+.title {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  font-size: clamp(2rem, 3.6vw, 2.9rem);
+  color: var(--color-espresso);
+  margin: 0 0 44px;
+  max-width: 560px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.mapPanel {
+  flex: 1 1 420px;
+  min-width: 280px;
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  background: linear-gradient(160deg, #efe4d2, #dcc9a8);
+  box-shadow: inset 0 0 0 1px rgba(43, 36, 32, 0.06);
+}
+
+.mapGrid {
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(rgba(43, 36, 32, 0.07) 1px, transparent 1px), linear-gradient(90deg, rgba(43, 36, 32, 0.07) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+.blobA {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: rgba(198, 148, 92, 0.18);
+  top: 8%;
+  left: 6%;
+}
+
+.blobB {
+  position: absolute;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  background: rgba(198, 148, 92, 0.14);
+  bottom: 4%;
+  right: 8%;
+}
+
+.pin {
+  position: absolute;
+  transform: translate(-50%, -100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pinLabel {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--color-espresso);
+  background: #fff;
+  padding: 5px 12px;
+  border-radius: 999px;
+  white-space: nowrap;
+  margin-bottom: 8px;
+  box-shadow: 0 6px 16px -6px rgba(43, 36, 32, 0.35);
+}
+
+.pinDot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--color-gold-deep);
+  animation: pinPulse 2.4s ease-in-out infinite;
+}
+
+.cardsCol {
+  flex: 1 1 380px;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.locationCard {
+  background: #fff;
+  border-radius: 20px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.locationName {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 22px;
+  color: var(--color-espresso);
+}
+
+.locationAddress {
+  font-family: var(--font-sans);
+  font-size: 14.5px;
+  color: rgba(43, 36, 32, 0.68);
+  line-height: 1.6;
+}
+
+.locationMeta {
+  font-family: var(--font-sans);
+  font-size: 13.5px;
+  color: rgba(43, 36, 32, 0.5);
+}
+
+.locationLink {
+  margin-top: 6px;
+  font-family: var(--font-sans);
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--color-gold-deep);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 0.2s ease;
+}
+
+.locationLink:hover {
+  color: #8c6239;
+}

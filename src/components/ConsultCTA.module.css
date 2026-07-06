@@ -1,0 +1,106 @@
+.section {
+  background: var(--color-espresso-deep);
+  padding: clamp(70px, 9vw, 130px) 0;
+  position: relative;
+  overflow: hidden;
+  scroll-margin-top: 82px;
+}
+
+.glow {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 50% 0%, rgba(198, 148, 92, 0.18), transparent 55%);
+}
+
+.inner {
+  position: relative;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 clamp(20px, 5vw, 64px);
+  text-align: center;
+}
+
+.kicker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.kickerLine {
+  width: 28px;
+  height: 1px;
+  background: var(--color-gold);
+}
+
+.kickerText {
+  font-family: var(--font-sans);
+  font-size: 12.5px;
+  letter-spacing: 0.28em;
+  color: var(--color-gold-light);
+  font-weight: 500;
+}
+
+.title {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  color: var(--color-cream);
+  margin: 0 0 20px;
+}
+
+.subtitle {
+  font-family: var(--font-body);
+  font-size: 17px;
+  font-weight: 300;
+  color: rgba(250, 246, 240, 0.7);
+  line-height: 1.6;
+  margin: 0 0 44px;
+}
+
+.ctaRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  justify-content: center;
+  margin-bottom: 22px;
+}
+
+.waLink {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-sans);
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--color-cream-dark);
+  border: 1.5px solid rgba(242, 233, 220, 0.35);
+  padding: 16px 32px;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.waLink:hover {
+  border-color: #25d366;
+  color: #25d366;
+}
+
+.bookBtn {
+  font-family: var(--font-sans);
+  font-size: 15px;
+  font-weight: 500;
+  color: #2b2420;
+  background: var(--gold-gradient);
+  border: none;
+  padding: 17px 36px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.note {
+  font-family: var(--font-sans);
+  font-size: 12.5px;
+  color: rgba(250, 246, 240, 0.45);
+}

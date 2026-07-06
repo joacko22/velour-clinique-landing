@@ -1,0 +1,105 @@
+.footer {
+  background: var(--color-espresso-darkest);
+  padding: 70px 0 28px;
+}
+
+.inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 clamp(20px, 5vw, 64px);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid rgba(230, 196, 145, 0.12);
+}
+
+.brandLogo {
+  height: 60px;
+  width: auto;
+  display: block;
+  margin-bottom: 18px;
+}
+
+.brandDesc {
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: rgba(250, 246, 240, 0.5);
+  max-width: 220px;
+  margin: 0;
+}
+
+.colTitle {
+  font-family: var(--font-sans);
+  font-size: 12.5px;
+  letter-spacing: 0.15em;
+  color: var(--color-gold-light);
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+
+.linksCol {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.footerNavLink {
+  font-family: var(--font-sans);
+  font-weight: 300;
+  font-size: 14px;
+  color: rgba(250, 246, 240, 0.6);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footerNavLink:hover {
+  color: var(--color-gold-light);
+}
+
+.locationsCol {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.locationName {
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(250, 246, 240, 0.85);
+}
+
+.locationAddress {
+  font-family: var(--font-sans);
+  font-weight: 300;
+  font-size: 13px;
+  color: rgba(250, 246, 240, 0.5);
+  margin-top: 3px;
+}
+
+.contactText {
+  font-family: var(--font-sans);
+  font-weight: 300;
+  font-size: 14px;
+  color: rgba(250, 246, 240, 0.6);
+}
+
+.bottomRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: space-between;
+  padding-top: 24px;
+}
+
+.bottomText {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  color: rgba(250, 246, 240, 0.4);
+}
