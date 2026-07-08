@@ -33,7 +33,7 @@ export default function BookingModal() {
             transition={{ duration: 0.25, ease: 'easeOut' }}
           >
             <button type="button" onClick={closeBooking} aria-label="Cerrar" className={styles.closeBtn}>
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2B2420" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#262628" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M6 6l12 12M18 6L6 18"></path>
               </svg>
             </button>
@@ -50,8 +50,8 @@ export default function BookingModal() {
                     <div
                       className={styles.progressCircle}
                       style={{
-                        background: active || done ? 'var(--gold-gradient)' : 'rgba(43,36,32,0.08)',
-                        color: active || done ? '#2B2420' : 'rgba(43,36,32,0.4)',
+                        background: active || done ? 'var(--gold-gradient)' : 'rgba(38,38,40,0.08)',
+                        color: active || done ? '#262628' : 'rgba(38,38,40,0.4)',
                       }}
                     >
                       {done ? '✓' : num}
@@ -59,7 +59,7 @@ export default function BookingModal() {
                     <span
                       className={styles.progressLabel}
                       style={{
-                        color: active ? '#2B2420' : 'rgba(43,36,32,0.4)',
+                        color: active ? '#262628' : 'rgba(38,38,40,0.4)',
                         display: showStepLabels ? 'inline' : 'none',
                       }}
                     >

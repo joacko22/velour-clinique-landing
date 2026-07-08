@@ -28,7 +28,7 @@
   margin: 14px;
   padding: 7px 14px;
   border-radius: 999px;
-  background: rgba(36, 31, 27, 0.42);
+  background: rgba(28, 28, 30, 0.42);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   font-family: var(--font-sans);

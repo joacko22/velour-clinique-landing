@@ -43,8 +43,8 @@ export default function Step1TreatmentLocation() {
         whileTap={step1Disabled ? undefined : { scale: 0.98 }}
         className={styles.primaryButton}
         style={{
-          background: step1Disabled ? 'rgba(43,36,32,0.12)' : 'var(--gold-gradient)',
-          color: step1Disabled ? 'rgba(43,36,32,0.35)' : '#2B2420',
+          background: step1Disabled ? 'rgba(38,38,40,0.12)' : 'var(--gold-gradient)',
+          color: step1Disabled ? 'rgba(38,38,40,0.35)' : '#262628',
         }}
       >
         Continuar

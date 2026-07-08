@@ -2,7 +2,7 @@ import styles from './PhotoPlaceholder.module.css';
 
 const TONE_GRADIENTS = {
   gold: 'linear-gradient(150deg, #D9AE79 0%, #B8824F 55%, #8C6239 100%)',
-  espresso: 'linear-gradient(150deg, #4A4038 0%, #37312C 55%, #241F1B 100%)',
+  espresso: 'linear-gradient(150deg, #55555A 0%, #333336 55%, #1C1C1E 100%)',
   cream: 'linear-gradient(150deg, #F2E9DC 0%, #E4D3B8 55%, #CBAE85 100%)',
 };
 

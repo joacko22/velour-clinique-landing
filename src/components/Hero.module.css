@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   overflow: hidden;
-  background: #241f1b;
+  background: #1c1c1e;
   scroll-margin-top: 82px;
 }
 
@@ -14,7 +14,7 @@
   background:
     radial-gradient(circle at 82% 18%, rgba(198, 148, 92, 0.35), transparent 55%),
     radial-gradient(circle at 15% 88%, rgba(198, 148, 92, 0.18), transparent 50%),
-    linear-gradient(160deg, #2e2822 0%, #241f1b 60%, #1d1915 100%);
+    linear-gradient(160deg, #222225 0%, #1c1c1e 60%, #141416 100%);
 }
 
 .noisePattern {
@@ -87,7 +87,7 @@
   font-family: var(--font-sans);
   font-size: 15px;
   font-weight: 500;
-  color: #2b2420;
+  color: #262628;
   background: var(--gold-gradient);
   border: none;
   padding: 17px 36px;

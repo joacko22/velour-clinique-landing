@@ -71,12 +71,12 @@ export default function Treatments() {
           <h2 className={styles.title}>Un protocolo para cada objetivo</h2>
           <div className={styles.arrowsRow}>
             <button type="button" onClick={scrollLeft} aria-label="Anterior" className={styles.arrowBtn}>
-              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#2B2420" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#262628" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M15 18l-6-6 6-6"></path>
               </svg>
             </button>
             <button type="button" onClick={scrollRight} aria-label="Siguiente" className={styles.arrowBtn}>
-              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#2B2420" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#262628" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M9 18l6-6-6-6"></path>
               </svg>
             </button>

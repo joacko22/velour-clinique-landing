@@ -56,8 +56,8 @@ export default function Step3DateTime() {
         whileTap={step3Disabled ? undefined : { scale: 0.98 }}
         className={styles.primaryButton}
         style={{
-          background: step3Disabled ? 'rgba(43,36,32,0.12)' : 'var(--gold-gradient)',
-          color: step3Disabled ? 'rgba(43,36,32,0.35)' : '#2B2420',
+          background: step3Disabled ? 'rgba(38,38,40,0.12)' : 'var(--gold-gradient)',
+          color: step3Disabled ? 'rgba(38,38,40,0.35)' : '#262628',
         }}
       >
         Confirmar turno

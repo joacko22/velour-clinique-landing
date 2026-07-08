@@ -17,8 +17,8 @@ export default function Step2Deposit() {
   if (booking.paying) payButtonText = 'Procesando pago…';
   if (booking.paid) payButtonText = '¡Pago confirmado!';
 
-  const payButtonBg = booking.paid ? '#3FA85C' : booking.paying ? 'rgba(43,36,32,0.5)' : 'var(--gold-gradient)';
-  const payButtonColor = booking.paid || booking.paying ? '#FFFFFF' : '#2B2420';
+  const payButtonBg = booking.paid ? '#3FA85C' : booking.paying ? 'rgba(38,38,40,0.5)' : 'var(--gold-gradient)';
+  const payButtonColor = booking.paid || booking.paying ? '#FFFFFF' : '#262628';
   const showBack = !(booking.paying || booking.paid);
 
   return (

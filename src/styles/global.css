@@ -1,11 +1,11 @@
 :root {
   --color-cream: #FAF6F0;
   --color-cream-dark: #F2E9DC;
-  --color-espresso: #2B2420;
-  --color-espresso-soft: #37312C;
-  --color-espresso-deep: #241F1B;
-  --color-espresso-darkest: #1D1915;
-  --color-brown: #4A4038;
+  --color-espresso: #262628;
+  --color-espresso-soft: #333336;
+  --color-espresso-deep: #1C1C1E;
+  --color-espresso-darkest: #141416;
+  --color-brown: #55555A;
   --color-gold: #C6945C;
   --color-gold-light: #E3C299;
   --color-gold-deep: #A9723F;
@@ -33,7 +33,7 @@ body {
 
 ::selection {
   background: var(--color-gold);
-  color: #2B2420;
+  color: #262628;
 }
 
 a {

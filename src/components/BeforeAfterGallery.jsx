@@ -90,7 +90,7 @@ export default function BeforeAfterGallery() {
           <div className={styles.handleTrack} style={{ left: `${sliderPos}%` }}>
             <div className={styles.handleLine} />
             <div className={styles.handleKnob}>
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2B2420" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#262628" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M8 7l-5 5 5 5M16 7l5 5-5 5"></path>
               </svg>
             </div>
@@ -101,7 +101,7 @@ export default function BeforeAfterGallery() {
 
         <div className={styles.controlsRow}>
           <button type="button" onClick={galleryPrev} aria-label="Anterior" className={styles.arrowBtn}>
-            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#2B2420" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#262628" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
               <path d="M15 18l-6-6 6-6"></path>
             </svg>
           </button>
@@ -125,7 +125,7 @@ export default function BeforeAfterGallery() {
                   style={{
                     width: i === galleryIndex ? '9px' : '7px',
                     height: i === galleryIndex ? '9px' : '7px',
-                    background: i === galleryIndex ? '#A9723F' : 'rgba(43,36,32,0.2)',
+                    background: i === galleryIndex ? '#A9723F' : 'rgba(38,38,40,0.2)',
                   }}
                 />
               ))}
@@ -133,7 +133,7 @@ export default function BeforeAfterGallery() {
           </div>
 
           <button type="button" onClick={galleryNext} aria-label="Siguiente" className={styles.arrowBtn}>
-            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#2B2420" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#262628" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
               <path d="M9 18l6-6-6-6"></path>
             </svg>
           </button>
